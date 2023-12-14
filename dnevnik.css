@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.main{
+    height: 100vh;
+    position: relative;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+table tr td{
+    border: 1px solid black;
+    width: 50%;
+    padding: 5px;
+}
+table tr th{
+    border: 1px solid black;
+    width: 50%;
+}
+
+.str1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+}
+
+.str2{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+}
+.str2 h1{
+    font-size: 30px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.str3{
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+}
+.str3 h1{
+    font-size: 30px;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.str4{
+    position: absolute;
+    top: 350%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+}
+
+.str5{
+    position: absolute;
+    top: 470%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 15px;
+    text-align: left;
+}
+
+.lini{
+    border: 1px solid black;
+}
+
+.mentor{
+    position: absolute;
+    right: 0;
+    width: 25%;
+    text-align: center;
+    margin-top: 100px;
+}
+.mentor h1{
+    margin-bottom: 100px;
+}
+
+.footer{
+    position: absolute;
+    top: 530%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+}
